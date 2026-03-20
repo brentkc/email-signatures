@@ -1,8 +1,8 @@
-"""Build Zendesk email signature templates using GitHub-hosted images."""
+"""Build Zendesk email signature templates using Azure Blob-hosted images."""
 import os
 
 sig_dir = r"C:\Users\BrentConlan\OneDrive - Medem\Desktop\Signatures"
-base_url = "https://raw.githubusercontent.com/brentkc/email-signatures/main/images"
+base_url = "https://stmedemsignatures.blob.core.windows.net/images"
 
 img = {
     "zsoftware_logo": f"{base_url}/zsoftware-logo.png",
